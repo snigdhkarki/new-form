@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=PT+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
+    <script src = "javascript.js" defer></script>
 </head>
 <body>
     <div class = "parent">
@@ -26,15 +27,15 @@
                         <legend class = "legend">Lets do this!</legend>
                         <div class = "formrr">
                             <div class = "formrr1">
-                                <div class="rr11"><label for="fname" class="fnamel">First Name</label><br> <input type= "text" class = "fname"></div>
-                                <div class="rr12"><label for="lname" class="lnamel">Last Name</label><br> <input type= "text" class = "lname"></div>
+                                <div class="rr11"><label for="fname" class="fnamel">First Name</label><br> <input type= "text" class = "fname" required /></div>
+                                <div class="rr12"><label for="lname" class="lnamel">Last Name</label><br> <input type= "text" class = "lname" required /></div>
                             </div>
                             <div class="formrr2">
                                 <div class="rr21"><label for="email" class="emaill">Email</label> <br><input type= "email" class = "email"></div>
                                 <div class="rr22"><label for="phone" class="phonel">Phone</label><br> <input type= "tel" class = "phone"></div>
                             </div>
                             <div class= "formrr3">
-                                <div class="rr31"><label for="password" class="passwordl">Password</label> <br><input type= "password" class = "password"></div>
+                                <div class="rr31"><label for="password" class="passwordl" >Password</label> <br><input type= "password" class = "password" minlength="8"></div>
                                 <div class="rr32"><label for="cpassword" class="cpasswordl">Confirm Password</label><br> <input type= "password" class = "cpassword"></div>
                             </div>
                             <button type = "submit" class ="sub"  ><div class="subl">Submit</div></button>
